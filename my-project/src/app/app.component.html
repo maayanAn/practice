@@ -1,0 +1,24 @@
+<h1> Original list </h1>
+<ul>
+  <li *ngFor="let item of orgList">{{item}}</li>
+</ul>
+<h1> New list </h1>
+<button (click)="calcNewList()">Click!</button>
+<ul>
+  <li *ngFor="let item of newList">{{item}}</li>
+</ul>
+
+<h3> ------------------- </h3>
+<h1> Find max multipliction </h1>
+<h2> Original array </h2>
+<ul>
+  <li *ngFor="let i of array">{{i}}</li>
+</ul>
+<h1> Max multipliction {{maxMul}}</h1>
+<h3>-------------------</h3>
+<h1>LCA(4,5)={{lcaArr[0]}}</h1>
+<h1>LCA(4,6)={{lcaArr[1]}}</h1>
+<h1>LCA(3,4)={{lcaArr[2]}}</h1>
+<h1>LCA(2,4)={{lcaArr[3]}}</h1>
+<h3>-------------------</h3>
+<h1>{{answer}}</h1>
